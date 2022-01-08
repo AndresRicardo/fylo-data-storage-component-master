@@ -172,12 +172,13 @@ body{
 
 
 .attribution{
+    color: var(--color-Grayish-Blue);
     align-self: flex-start;
     margin-top: auto;
 }
 
 .attribution a{
-    color: var(--color-Grayish-Blue);
+    color: white;
     text-decoration: none;
 
 }
@@ -230,5 +231,9 @@ body{
         position: absolute;
         bottom: -20px;
         right: 0px;
+    }
+
+    .attribution{
+        align-self: center;
     }
 }
