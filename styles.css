@@ -215,9 +215,10 @@ body{
     .card-2 .globo{
         background-color: white;
         right: 30px;
-        top: -45px;
+        bottom: 87%;
         height: fit-content;
-        width: 35%;
+        width: fit-content;
+        min-width: 110px;
     }
 
     .globo .colita{
